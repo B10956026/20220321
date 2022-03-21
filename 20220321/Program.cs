@@ -9,13 +9,14 @@ namespace HttpClientSample
 {
     class Program
     {
-        private const string uri = "http://api.geonames.org/search";
+        private const string uri = "https://ods.railway.gov.tw/tra-ods-web/ods/download/dataResource/2e9974cb150843348b2c9cff9f89db1e";
 
         static void Main(string[] args)
         {
             Run();
 
             Console.WriteLine("Hit enter to exit...");
+            Console.WriteLine("臺鐵局機車、客貨車輛數："); 
             Console.ReadKey();
         }
 
