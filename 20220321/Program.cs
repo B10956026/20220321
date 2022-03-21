@@ -8,6 +8,8 @@ namespace _20220321
 {
     class Program
     {
+        //猜數字，0~100取亂數
+
         static void Main(string[] args)
         {
             // Instantiate random number generator using system-supplied value as seed.
