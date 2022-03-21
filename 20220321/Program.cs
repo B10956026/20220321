@@ -49,8 +49,6 @@ namespace _20220321
             {
                 Console.WriteLine("輸入錯誤!");
             }
-
-
         }
     }
 }
